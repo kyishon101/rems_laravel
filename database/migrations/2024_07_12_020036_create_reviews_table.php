@@ -18,7 +18,6 @@ return new class extends Migration
             $table->integer('rating');
             $table->text('comments')->nullable();
             $table->timestamps();
-            //san kyi tar par
 
         });
 
